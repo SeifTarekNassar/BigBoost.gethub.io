@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>homepage</title>
+<meta charset="utf-8">
+
+    <link rel="icon" href="photos/unnamed.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylehomepage.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+        
+    <header>
+       
+       
+
+   
+     <div id="navbar">
+ 
+  <a class="active"  herf="mainpage.html" href="javascript:void(0)">Home</a>
+         <a herf="#"href="javascript:void(0)">News</a>
+          <a herf="#"href="javascript:void(0)">Cars</a>
+          <a herf="#"href="javascript:void(0)">support</a>
+         <a href="#" href="javascript:void(0)">Sign up</a>
+  
+         <a href="#" href="javascript:void(0)">about us</a>
+         
+         
+   
+        
+</div>
+        
+         <a id="logo" href="mainpage.html">
+            <img src="photos/logo.png" >
+            
+        </a>
+           <a class="searchbar"href="#" ><input type="text" placeholder="Search.."></a>      
+        <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+       
+    </header>
+
+   
+    <main>
+ 
+        
+
+
+
+    
+        <div class="hero">
+        
+
+            <div class="slideshow-container">
+
+<div class="mySlides fade">
+ 
+  <img src="photos/tumblr_static_tumblr_static_1f3mw20j9yxw04sw80c8gwocs_640.jpg" style="width:100%">
+  <div class="text">Boosted</div>
+    <div class="hero-content">  
+                <h1   class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;color: #222;">BiG BooST</h1>
+                <p style="color: black">Best website for car entuthiast</p>
+
+                <a href="#">Learn more</a>
+                <a href="login.html">log in</a>
+            </div>
+</div>
+                       <div class="mySlides fade">
+ 
+  <img src="photos/3rdphoto.gif" style="width:100%">
+  <div class="text">Boosted</div>
+    <div class="hero-content">
+                <h1 class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;">BiG BooST</h1>
+                <p> latest event location and more sign up now</p>
+
+                <a href="#">Learn More</a>
+                <a href="login.html">log in</a>
+            </div>
+</div>
+
+
+<div class="mySlides fade">
+ 
+  <img src="photos/3rdphoto.gif" style="width:100%">
+  <div class="text">Boosted</div>
+    <div class="hero-content">
+                <h1 class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;">BiG BooST</h1>
+                <p> latest car news and updates</p>
+
+                <a href="#">Learn More</a>
+                <a href="login.html">log in</a>
+            </div>
+</div>
+<div class="mySlides fade">
+ 
+  <img src="photos/gify2.gif" style="width:100%">
+  <div class="text">Boosted</div>
+    <div class="hero-content">
+                <h1 class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;">BiG B00ST</h1>
+                <p> latest car news and updates</p>
+
+                <a href="#">Learn More</a>
+                <a href="login.html">log in</a>
+            </div>
+</div>
+<div class="mySlides fade">
+  >
+  <img src="photos/giphy.gif" style="width:100%">
+  <div class="text">Boosted</div>
+   <div class="hero-content">
+                <h1 class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;">BiG B00ST</h1>
+                <p>car news every sec join now </p>
+
+                <a href="#">Learn More</a>
+                <a href="login.html">log in</a>
+            </div>
+</div>
+    
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+ <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3250); 
+}
+</script>
+
+           
+            
+        </div>
+
+        <!-- features section -->
+        <div class="site-section">
+        <div class="site-section-inside">
+
+            <div class="section-header">
+                <h2>our colection</h2>
+            </div>
+
+            <div class="box">
+                <img src="photos/all.png" alt="Easy to Use">
+                <h5  style="color:white;">built to last</h5>
+                <p></p>
+            </div>
+
+            <div class="box">
+                <img src="photos/lineup.png" alt="Fun to Use">
+                <h5 style="color:white;">All new Ranger</h5>
+                <p style="color:rgb(180, 180, 180);">he all-new 2019 Ranger has been developed and tested to the demanding standards of Built Ford Tough. It shares a heritage of toughness, durability and capability derived from over 100 years of Ford Trucks’ relentless focus on engineering excellence.</p>
+            </div>
+
+            <div class="box">
+                <img src="photos/about-car.png" alt="Fun to Use">
+                <h5  style="color:white;">You'll Love It</h5>
+                <p style="color:rgb(180, 180, 180);" >Choose EcoSport SES and you’ll enjoy a 2.0L engine, Intelligent 4WD and sport-tuned suspension–all standard. Look as good as you feel with stylish fabric and partial leather seats, surrounded by unique copper accents and bold, black exterior details.</p>
+            </div>
+
+        </div>
+        </div>
+
+        <!-- testimonials section -->
+        <div class="site-section site-section-secondary">
+        <div class="site-section-inside">
+
+            <div class="section-header">
+                <h2>Users Opinion</h2>
+            </div>
+
+            <div class="box1">
+                <div class="testimonial-content">
+                      "Best website ever i buy and learned useful tipes from it,I give it 9/10"
+                </div>
+                <div class="beforepagefooter">
+                    <img src="photos/qEoKIoGjII5U.png" >
+                    <h5>Fri Rider</h5>
+                        <span> cairo</span>
+                </div>
+            </div>
+               <div class="box1">
+                <div class="testimonial-content">
+                    " Best website ever i buy and learned useful tipes from it,I give it 9/10 "
+                </div>
+                <div class="beforepagefooter">
+                    <img src="photos/images.jpg" >
+                    <h5>Lena momo</h5>
+                        <span> cairo</span>
+                </div>
+            </div>
+        
+                 <div class="box1">
+                <div class="testimonial-content">
+                    " Best website ever i buy and learned useful tipes from it,I give it 9/10 "
+                </div>
+                <div class="beforepagefooter">
+                    <img src="photos/xsplyce_logo_snakecircle.png.pagespeed.ic.P13tsC3F-f.png" >
+                    <h5>Punish Knight</h5>
+                        <span> cairo</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        
+        
+
+
+    </main>
+<ul class="socialIcons">
+  <li class="facebook"><a href=""><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+  <li class="twitter"><a href=""><i class="fa fa-fw fa-twitter"></i>#Big Boost</a></li>
+  <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+  <li class="youtube"><a href=""><i class="fa fa-fw fa-youtube"></i>join 1m sub</a></li>
+ 
+</ul>  
+    <!-- the footer -->
+    <footer>
+        <div class="footercontent">
+        <img src="photos/ezgif.com-add-text.gif" alt="Footer Logo">
+        
+        <span>Copyright &copy; 2018-2019 </span>
+        <br>
+        <span><a href="mailto:gmail"><h5>bigboost@org.com</h5></a> </span>
+        </div>
+    </footer>
+
+</body>
+</html>
