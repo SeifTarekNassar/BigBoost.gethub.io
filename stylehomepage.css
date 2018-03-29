@@ -31,7 +31,7 @@ header   {
 #logo img    {
     position: fixed;
     
-    right: 5px;
+    right: ;
     top: -45px;   
   width: 350px;
     height: 150px;;
@@ -41,14 +41,6 @@ header   {
   vertical-align: right ;
 
 }
-
-
-
-
-
-
-
-
 /*  footer */
 footer   {
   background: #fff;
@@ -60,7 +52,7 @@ footer   {
 }
 footer img   {
   display: block;
-  border-radius: 5px;
+  border-radius:0px;
   width: 80px;
   margin-right: auto;
     margin-left: auto;
@@ -74,26 +66,26 @@ footer:hover h5{
     color: red;
 }
 /* hero */
-.hero           {
+.firsttop         {
     width: 100%;
   min-height: 1200px;
   text-align: center;
 
 }
-.hero-content   {
+.firsttop-content   {
   color: #FFF;
     position: relative;
-    bottom: 750px;
+    bottom: 700px;
   
 }
-.hero-content h1   {
+.firsttop-content h1   {
   font-size: 120px;
   margin: 0;
 }
-.hero-content p    {
+.firsttop-content p    {
   font-size: 50px;
 }
- .hero-content a   {
+ .firsttop-content a   {
   display: inline-block;
   color: #FFF;
   border: 3px solid #FFF;
@@ -103,19 +95,200 @@ footer:hover h5{
   text-decoration: none;
   font-size: 28px;
 }
-.hero-content a:hover{
+.firsttop-content a:hover{
     opacity: 0.5;
  
     
 } 
 
 /* basic site sections */
-.site-section   {
+
+/* feature boxes */
+section{
+    
+    
+    margin-top: 950px;
+    
+}
+#line h1{
+	font-family: LeagueGothic, Impact, sans-serif;
+	font-weight: normal;
+	font-size: 60px;
+	text-transform: uppercase;
+	color:#fff ;
+	text-shadow: 2px 2px 0 #000;
+	text-align:  center;
+    background: #222;
+    border-radius: 10em 2px ;
+}
+
+
+
+#ourserv article{
+    background-color:rgb(0,0,0,0.5);
+	width: 300px;
+	display: inline-block;
+	color: #fff;
+	vertical-align: top;
+	margin: 0px 50px 0px 0px;
+    border-radius: 1em;
+}
+ #latestp article h1{
+    color: #fff;
+     
+    background-color: rgb(0,0,0,0.3);
+	font-family: LeagueGothic, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-bottom: 10px;
+     border-radius: 10em;
+}
+hr {
+	background-color: #fff;
+	border-top: 2px dashed #222;
+    margin: -14px;
+}
+.lastarticle{
+	margin:50p;
+}
+#ourserv{
+    background:url(photos/carbonfiber.jpg) ;
+    padding: 30px;
+
+	margin: 10px 0px 100px 0px;
+	width: 100%;
+}
+#ourserv img{
+    width: 60%
+}
+#ourserv p{
+    letter-spacing: 2px;
+}
+ #latestp img{
+	margin-bottom: 5px;
+    box-shadow: 0 4px 6px #000;
+}
+.rm{
+	color: #121212;
+	background-color: #F2F2F2;
+	padding: 5px 4px;
+	width: 100px;
+	box-shadow: 0px 0px 3px #000;
+	text-decoration: none;
+	text-transform: uppercase; 
+	font-size: 15px;
+	border-radius: 20em;
+    
+}
+.rm:hover{
+	background-color: #B82924;
+	color: #121212;
+}	
+.RM{
+	color: #222;
+	background-color: transparent;
+	padding: 5px 4px;
+	width: 100px;
+	box-shadow: 0px 0px 3px #000;
+	text-decoration: none;
+	text-transform: uppercase; 
+	font-size: 20px;
+	border-radius: 20em;
   
+}
+.RM:hover{
+	background-color:transparent;
+	color: #fff;
+}	
+
+#sline h1{
+	font-family: LeagueGothic, Impact, sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 5px 0px 10px #000;
+	text-align:  center;
+    position: relative;
+    top: 12px;
+ 
+}
+
+.space3{
+    background: url(photos/carbon%20fiber2.png);
+    width: 100%;
+   
+    
+}
+#latestp article{
+    
+    padding: 50px 20px;
+    background-color: rgb(0,0,0,0.8);
+    background-size: cover;
+    margin: 30px;
+	width: 325px;
+	display: inline-block;
+	margin-right: 50px;
+    border-radius: 1em;
+}
+#latestp{
+    
+        
+	margin: 50px;
+}
+#latestp p{
+
+      color: #fff;
+    background-color: rgb(0,0,0,0.2);
+    font-stretch:ultra-expanded;
+    letter-spacing: 2px;
+    }
+
+.b1{   
+    
+    background: url(photos/b222.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.b2{
+    background: url(photos/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.b3{
+    background: url(photos/b3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.b4{
+    background: url(photos/tiremarks.jpg);
+    background-repeat: no-repeat;
+
+}
+.b5{
+    background: url(photos/b55.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.b6{
+    background: url(photos/b66.png);
+    background-size: cover;
+
+}
+
+/* user boxes */
+.site-section   {
+
   padding-top: 10px;
     padding-left: 100px;
 }
 .site-section-secondary   {
+    margin-top: 90px;
   background: #222;
     
 }
@@ -136,26 +309,6 @@ footer:hover h5{
   color: #777;
 }
 
-/* feature boxes */
-.box   {
-  display: inline-block;
-  width: 60%;
-  padding: 40px 20px;
-}
-.box img  {
-  margin-bottom: 20px;
-  width: 1000px;
-}
-.box h5   {
-  font-size: 20px;
-  color: #999;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 2px;
-  margin: 0;
-}
-
-/* user boxes */
 .box1   {
    
 border-radius: 50em;
@@ -163,7 +316,7 @@ border-radius: 50em;
   width: 30%;
     height: auto;
     background-color: #fff;
-    margin: 14px;
+    margin: 2px;
 }
 .testimonial-content   {
   
@@ -197,58 +350,43 @@ border-radius: 50em;
 
 #navbar {
   overflow: hidden;
-background:transparent;  
+background:white;
+   
 }
 
 #navbar a {
   
  
    
-  float: left;
+  float: right;
   display: inline-block;
   color: #222;
-  text-align: center;
-  padding: 18px 20px;
+ 
+  padding: 10px 20px;
   text-decoration: none;
   font-size: 25px;
 }
 
 #navbar a:hover {
-  background-color: red;
+  background-color: red ;
     color: #fff;
-  
+  opacity: 0.7;
 }
-
-#navbar a.active {
-  background-color: red;
-  color: white;
-}
-#navbar a.active:hover {
-  background-color: #fff;
-  color: red;
-}
-
-
-
-
-
-
-
 
 /*  search box  */
 .searchbar input[type=text] {
    
   position:absolute;
-    right:2px;
-    top: 1px;
+    right:600px;
+    top: 5px;
     float: left;
     
-    padding: 15px 125px;
+    padding: 10px 10px;
     border:none;
     margin-right:2px;
-    font-size: 25px;
+    font-size: 20px;
     border-color: none;
-    
+     width: calc(30% - 100px);
    
 }
 
@@ -264,7 +402,7 @@ background:transparent;
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: calc(100% - 0px);
 }
 
 .sticky + .content {
@@ -283,7 +421,7 @@ background:transparent;
 /* Slideshow container */
 .slideshow-container {
     position: absolute;
-    top:70px;
+    top:60px;
   width: 100%;  
   position: center;
   margin: auto;
@@ -295,32 +433,25 @@ background:transparent;
 
 /* boost text */
 .text {
+    position: relative;
+    bottom: 29px;
   color: #222;
   font-size: 15px;
   padding: 8px 12px;
-  
-  
   width: 100%;
   text-align: center;
 }
-
-
-
-
 .dot {
     position: relative;
-    top: 780px;
-    
-   
-    
+    top: 750px;
   cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.1s ease;
     
     
 }
@@ -339,7 +470,7 @@ background:transparent;
 /* social media icons ------------------------------------------- */
 ul.socialIcons {
   text-align: center;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .socialIcons li {
@@ -361,19 +492,13 @@ ul.socialIcons {
   min-width: 1.28571429em;
   max-width: 1.28571429em;
   height: 1.28571429em;
-  
- 
- 
   text-decoration: none;
-
   color: #fff;
 }
 
 .socialIcons :hover a {
   max-width: 200px;
-  padding-right: 2px;
-     
-
+  padding-right: 5px;
 }
 
 .socialIcons .facebook {
@@ -395,7 +520,54 @@ ul.socialIcons {
   background-color: #c92228;
   box-shadow: 0 0 20px #c92228;
 }
-
+.contactform{
+    background: #222;
+}
+.contact{
+      margin-left: 100px; 
+   position: relative;
+    bottom: 20px;
+}
+.contact2{    
+float: right;
+    position: relative;
+    bottom: 252px;
+     right: 370px;
+}
+#send{
+    position:relative;
+    left: 50%;
+    top: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    background-color: red;
+    border-radius: 1em 1px;
+}
+#send:hover{
+    color: red;
+    background: #fff;
+}
+input[type=fname]  {
+ 
+    width: 50%;
+    padding: 12px;
+    
+    border-radius: 4px;
+}
+input[type=subject]  {
+    width: 250%;
+    padding: 12px;
+   height: 100px;
+    border-radius: 4px;
+}
+input[type=country]  {
+    
+    width: 250%;
+    padding: 12px;
+    
+    border-radius: 4px;
+}
 
 /* end of social media icons ------------------------------------------- */
 
