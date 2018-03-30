@@ -32,7 +32,7 @@ header   {
     position: fixed;
     
     right: ;
-    top: -45px;   
+    top: -41px;   
   width: 350px;
     height: 150px;;
   border-radius: 0px;
@@ -41,7 +41,6 @@ header   {
   vertical-align: right ;
 
 }
-/*  footer */
 footer   {
   background: #fff;
   color: #777;
@@ -60,13 +59,14 @@ footer img   {
     
 }
 footer a{
+    letter-spacing: 2px;
     text-decoration: none;
     color: #777;   
 }
-footer:hover h5{
+footer:hover a{
     color: red;
 }
-/* hero */
+
 .firsttop         {
     width: 100%;
   min-height: 1200px;
@@ -154,7 +154,7 @@ hr {
 	margin:50p;
 }
 #ourserv{
-    background:url(photos/carbonfiber.jpg) ;
+    background:url(../photos/carbonfiber.jpg) ;
     padding: 30px;
 
 	margin: 10px 0px 100px 0px;
@@ -209,7 +209,7 @@ hr {
 	font-size: 30px;
 	text-transform: uppercase;
 	color: #fff;
-	text-shadow: 5px 0px 10px #000;
+	text-shadow: 5px 0px 10px #222;
 	text-align:  center;
     position: relative;
     bottom: 12px;
@@ -217,7 +217,7 @@ hr {
 }
 
 .space3{
-    background: url(photos/carbon%20fiber2.png);
+    background: url(../photos/carbon%20fiber2.png);
     width: 100%;
    
     
@@ -248,36 +248,36 @@ hr {
 
 .b1{   
     
-    background: url(photos/b222.jpg);
+    background: url(../photos/b222.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 
 }
 .b2{
-    background: url(photos/b1.jpg);
+    background: url(../photos/b1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .b3{
-    background: url(photos/b3.jpg);
+    background: url(../photos/b3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .b4{
-    background: url(photos/tiremarks.jpg);
+    background: url(../photos/tiremarks.jpg);
     background-repeat: no-repeat;
 
 }
 .b5{
-    background: url(photos/b55.jpg);
+    background: url(../photos/b55.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .b6{
-    background: url(photos/b66.png);
+    background: url(../photos/b66.png);
     background-size: cover;
 
 }
@@ -351,7 +351,7 @@ border-radius: 50em;
 
 #navbar {
   overflow: hidden;
-background:white;
+background:#fff;
    
 }
 #navbar ul{

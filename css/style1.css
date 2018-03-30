@@ -2,7 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background: url(photos/6aSSMhI-muscle-cars-hd-wallpaper.jpg);
+	background: url(../photos/6aSSMhI-muscle-cars-hd-wallpaper.jpg);
 	background-size: cover;
     background-position:top center;
 	font-family: sans-serif;
@@ -10,14 +10,15 @@ body
 .loginBox
 {
 	position: absolute;
-	top: 60%;
-	left: 50%;
+	top: 50%;
+	left:80%;
 	transform: translate(-50%,-50%);
 	width: 320px;
 	height: 420px;
 	padding: 80px 40px;
 	box-sizing: border-box;
 	background: rgba(0,0,0,.5);
+   
 }
 .user
 {
@@ -34,7 +35,7 @@ h2
 {
 	margin: 0;
 	padding: 0 0 30px;
-	color: #DBEE13;
+	color: #FFFF00;
 	text-align: center;
 }
 .loginBox p
@@ -60,11 +61,7 @@ h2
 	color: #fff;
 	font-size: 16px;
 }
-::placeholder
 
-{
-	color: rgba(255,255,255,.5);
-}
 .loginBox input[type="submit"]
 {
 	border: none;
@@ -93,13 +90,98 @@ h2
 }
 #logo img    {
     position: absolute;
-    top: 2px;
-    
-        
-  width: 300px;
-    height: 120px;
+    top: -50px;
+    left: 100px;
+
+  width: 400px;
+    height: px;
   border-radius: 10px;
   margin-right: 5px;
     
   vertical-align: middle ;
 }
+.contact{
+    display: inline-block;
+    padding: 120px 210px;
+    background: rgb(0,0,0,.5);
+    position: relative;
+    right: 1%;
+    box-shadow: 0px 0px 100px #222;
+}
+.inside{
+    position: relative;
+    right: 195px;
+    top:40px;
+}
+#fname,#lname,#email,#password {
+    opacity: 0.5;
+    padding: 5px;
+    width: 200%;
+    font-size:20px;
+}
+.contact p{
+    font-size: 20;
+    padding: 0;
+    margin: 10px;
+    font-weight:bold ;
+    color: #fff;
+}
+#send{
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+    color: #fff;
+    font-weight: bolder;
+}
+#submit{
+    position: absolute;
+    top: 92%;
+    left: 550px;
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+    background: #fff;
+    border-radius: 0.5em 10px;
+}
+#submit:hover{
+    background: red;
+	color: #fff;
+}
+footer   {
+    position: relative;
+    top: 3px;
+  background: #222;
+  color: #777;
+  text-align: center;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.footercontent{
+    margin-left:100px;
+}
+
+footer a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #777;   
+}
+footer:hover a{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
