@@ -1,0 +1,265 @@
+
+html,
+body   { 
+    height: 80%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.0;
+  font-size: 20px;
+width: 100%;
+    background:  	 #fff; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box}   
+}
+header   {
+  background: #fff;
+  color: #fff;
+  padding: 30px 30px;
+    
+}
+
+
+/* logo */
+
+#logo img    {
+    position:absolute;
+    right: ;
+    top: -45px;   
+  width: 350px;
+    height: 150px;;
+  border-radius: 0px;
+  margin-right: 5px;
+  vertical-align: right ;
+
+}
+footer   {
+    position: relative;
+  background: #222;
+  color: #777;
+  text-align: center;
+    font-size: 15px;
+
+}
+.footercontent{
+    margin-left:100px;
+      padding-bottom: 15px;
+}
+footer img   {
+  display: block;
+  border-radius:0px;
+  width: 80px;
+  margin-right: auto;
+    margin-left: auto;
+    
+}
+footer a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #777; 
+      
+}
+footer:hover a{
+    color: red;
+}
+#navbar {
+  overflow: hidden;
+background:#fff;
+   
+}
+#navbar ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#navbar a {
+  float: right;
+  display: inline-block;
+  color: #222;
+  padding: 10px 20px;
+  text-decoration: none;
+    
+  font-size: 25px;
+}
+
+#navbar a:hover {
+  background-color: red ;
+    color: #fff;
+  opacity: 0.7;
+}
+
+#navbar a:active {
+  background-color: red ;
+    color: #fff;
+ 
+}
+
+/*  search box  */
+  #searchbar  {
+  position:absolute;
+    right:600px;
+    top: 2px;
+    float: left;
+    padding: 10px 10px;
+    border:none;
+    margin-right:2px;
+    font-size: 20px;
+    border-color: none;
+     width: calc(30% - 100px);
+}
+.introduction       {
+    width: 100%;
+  min-height: 1200px;
+  text-align: center;
+ 
+}
+.firsttop-content   {
+  color: #FFF;
+    position: relative;
+    bottom: 600px;
+  
+}
+.firsttop-content h1   {
+  font-size: 120px;
+  margin: 0;
+}
+.firsttop-content p    {
+  font-size: 50px;
+}
+.shadow{
+    position: absolute;
+    background: rgb(0,0,0,.5);
+    padding: 379px;
+    padding-right: 71.8%;
+}
+.description{ 
+    position: relative;
+bottom:400px;
+    padding-left: 90px; 
+    padding-right: 90px;
+    font-weight:500;
+    letter-spacing: 2px;
+     line-height: 2;
+}
+.numbers{
+    position: relative;
+    bottom: 90px;
+    padding-top: 1px;
+    text-align:center;
+    color: #222;
+    font-weight:500;
+    letter-spacing: 2px;
+     line-height: 2;
+    
+}
+.numbers h2{
+    font-weight: bold;
+    color:#222;
+    border-radius: 10em 10em;
+    
+}
+.numbers h2:hover{
+    color: red;
+   
+}
+section #socialmedia {
+    position: relative;
+    bottom: 50px;
+  text-align: center;
+}
+
+section #socialmedia li {
+  width: 190px;
+  height: 140px;
+  display: inline-block;
+  margin: 50px;
+  list-style: none;
+}
+section #socialmedia li div {
+  width: 100%;
+  color:#fff;
+  font-size: 100px;
+  text-align: center;
+  line-height: 180px;
+  background-color: rgb(0,0,0,.3);
+  transition:0.5s ;
+}
+section #socialmedia li a {
+  color: #fff;
+}
+section #socialmedia li div:hover {
+  transform: rotate(360deg);
+  border-radius: 10em;
+}
+section #socialmedia li span {
+  height: 50px;
+  display: block;
+  padding: 15px;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 20px;
+    font-weight: bold;
+  text-align: center;
+}
+.site-section   {
+    position: relative;
+    bottom: 200px;
+     padding-top: 10px;
+    padding-left: 100px;
+}
+.site-section-secondary   {
+ background: #222;
+    
+}
+.site-section-inside   {
+  width: 80%;    
+  max-width: 1080px;
+  margin:auto ;
+}
+
+
+.box1   {
+   
+border-radius: 10em;
+  display: inline-block;
+  width: 30%;
+    height: auto;
+    background-color: #fff;
+    margin: 10px;
+}
+.testimonial-content   {
+  
+  padding: 15%;
+  border-radius: 5px;
+
+
+}
+.beforepagefooter           {
+    padding: 10%;
+
+}
+.beforepagefooter img {
+  float: left;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.beforepagefooter h5   {
+  font-size: 18px;
+  margin: 0;
+  padding-top:20px;
+}
+.beforepagefooter span {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

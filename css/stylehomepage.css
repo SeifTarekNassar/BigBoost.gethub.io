@@ -46,9 +46,11 @@ footer   {
   color: #777;
   text-align: center;
     font-size: 15px;
+
 }
 .footercontent{
     margin-left:100px;
+      padding-bottom: 15px;
 }
 footer img   {
   display: block;
@@ -61,7 +63,8 @@ footer img   {
 footer a{
     letter-spacing: 2px;
     text-decoration: none;
-    color: #777;   
+    color: #777; 
+      
 }
 footer:hover a{
     color: red;
@@ -102,13 +105,11 @@ footer:hover a{
     
 } 
 
-/* basic site sections */
 
-/* feature boxes */
 section{
     
     
-    margin-top: 950px;
+    margin-top: 925px;
     
 }
 #line h1{
@@ -165,6 +166,7 @@ hr {
 }
 #ourserv p{
     letter-spacing: 2px;
+    font-weight: bold;
 }
  #latestp img{
 	margin-bottom: 5px;
@@ -202,7 +204,18 @@ hr {
 	background-color:transparent;
 	color: #fff;
 }	
-
+#line{
+   font-family: LeagueGothic, Impact, sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 5px 0px 10px #222;
+	text-align:  center;
+    background: #222;
+    border-radius: 10em 10px;
+    
+}
 #sline a{
 	font-family: LeagueGothic, Impact, sans-serif;
 	font-weight: normal;
@@ -282,7 +295,7 @@ hr {
 
 }
 
-/* user boxes */
+
 .site-section   {
 
   padding-top: 10px;
@@ -380,7 +393,7 @@ list-style-type: none;
   #searchbar  {
    
   position:absolute;
-    right:600px;
+    right:620px;
     top: 5px;
     float: left;
     
@@ -421,7 +434,7 @@ list-style-type: none;
 
 
 
-/* Slideshow container */
+
 .slideshow-container {
     position: absolute;
     top:60px;

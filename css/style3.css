@@ -1,0 +1,130 @@
+html,
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(../photos/maxresdefault.jpg);
+	background-size: cover;
+    background-position:top center;
+	font-family: sans-serif;
+}
+
+#logo img    {
+    position: absolute;
+    top: -50px;
+    right: 900px;
+  width: 400px;
+    height: px;
+  border-radius: 10px;
+  margin-right: 5px;
+  vertical-align: middle ;
+}
+.contact{
+    float: right;
+    display: inline-block;
+    padding: 185px 215px;
+    background: rgb(0,0,0,.5);
+    position: relative;
+    right: 1%;
+    box-shadow: 0px 0px 100px #222;
+}
+.inside{
+    position: relative;
+    right: 195px;
+    top:-150px;
+}
+#fname,#lname,#email,#phonenumber{
+    opacity: 0.5;
+    padding: 5px;
+    width: 200%;
+    font-size:20px;
+}
+#subject{
+   opacity: 0.5;
+    padding: 5px;
+    width: 200%;
+    height: 100px;
+    font-size:20px;  
+}
+.contact p{
+    font-size: 20;
+    padding: 0;
+    margin: 10px;
+    font-weight:bold ;
+    color: #fff;
+}
+#send{
+    position: absolute;
+    bottom: 70px;
+    right: 400px;
+    color: #fff;
+    font-weight: bolder;
+}
+#submit{
+    position: absolute;
+    top: 90%;
+    left:1100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+    background:#222;
+    border-radius: 0.5em 10px;
+}
+#submit:hover{
+  
+	color: red;
+}
+footer   {
+    position: relative;
+    top:758px;
+  background: #222;
+  color: #777;
+  text-align: center;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.footercontent{
+    margin-left:100px;
+}
+
+footer a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #777;   
+}
+footer:hover a{
+    color: red;
+}
+
+.photo{
+    background:url(../photos/mail%20flying%20GIF%20by%20ali%20mac-source.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 320px;
+    position: absolute;
+    right: 100%;
+    top: 1px;
+    opacity: 0.5;
+    
+
+
+}
+
+.headd{
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
