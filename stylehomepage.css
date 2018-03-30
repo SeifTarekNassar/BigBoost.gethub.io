@@ -354,13 +354,19 @@ border-radius: 50em;
 background:white;
    
 }
-
+#navbar ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
 #navbar a {
   float: right;
   display: inline-block;
   color: #222;
   padding: 10px 20px;
   text-decoration: none;
+    
   font-size: 25px;
 }
 
@@ -371,7 +377,7 @@ background:white;
 }
 
 /*  search box  */
-.searchbar input[type=text] {
+  #searchbar  {
    
   position:absolute;
     right:600px;
