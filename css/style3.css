@@ -55,7 +55,7 @@ body
 }
 #send{
     position: absolute;
-    bottom: 70px;
+    bottom: 10px;
     right: 400px;
     color: #fff;
     font-weight: bolder;
