@@ -130,12 +130,12 @@ list-style-type: none;
 .shadow{
     position: absolute;
     background: rgb(0,0,0,.5);
-    padding: 379px;
-    padding-right: 71.8%;
+    padding: 450px;
+    padding-right: 75%;
 }
 .description{ 
     position: relative;
-bottom:400px;
+bottom:325px;
     padding-left: 90px; 
     padding-right: 90px;
     font-weight:500;

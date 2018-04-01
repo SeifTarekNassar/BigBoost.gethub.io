@@ -55,14 +55,14 @@ body
 }
 #send{
     position: absolute;
-    bottom: 10px;
+    bottom: 200px;
     right: 400px;
     color: #fff;
     font-weight: bolder;
 }
 #submit{
     position: absolute;
-    top: 90%;
+    top: 80%;
     left:1100px;
     text-decoration: none;
     color: #fff;
@@ -100,7 +100,7 @@ footer:hover a{
     background:url(../photos/mail%20flying%20GIF%20by%20ali%20mac-source.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 400px 320px;
+    padding: 400px 450px;
     position: absolute;
     right: 100%;
     top: 1px;
