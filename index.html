@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Homepage</title>
+    <title>HomePage</title>
 <meta charset="utf-8">
 
     <link rel="icon" href="photos/unnamed.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/stylehomepage.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+  
 </head>
 <body>
  
@@ -16,37 +18,37 @@
        
        
 
-   
+   <div id="headerr">
      <div id="navbar">
          <ul>
+             <li><a href="login.html">Sign in</a></li>
              <li><a href="Aboutus.html" >About us</a></li>
-         <li> <a href="contactus.html" >Contact us</a></li>
-             <li><a href="#ourserv">Shop</a></li>
+             <li><a href="contactus.html" >Contact us</a></li>
+             <span class="rightt">
+             <li><a href="shop.html" >Shop</a></li>
              <li><a href="#sline" >Reviews</a></li>
-             <li><a href="#sline">News</a></li>
+             <li><a href="News.html" >News</a></li>
+             </span>
              </ul>
 </div>
         
          <a id="logo" href="index.html">
-            <img src="photos/logo.png" alt="BigBoost" >
+            <img src="./photos/logo%20v4.png" alt="BigBoost" >
             
         </a>
-           <input  type="text" id="searchbar" placeholder="Search..">     
-        <script>
-window.onscroll = function() {myFunction()};
+         <div class="searchb">
+		<form action="https://www.google.com" method="get" id="searchbox">
+			<input type="text" class="search" name="q" size="20" maxlength="120" placeholder="search...">
+			<input type="submit" class="searchbutton" value="Search">
+		</form>
+	</div>     
+<ul class="icons">
+        <li><a href="" class="icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="" class="icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="" class="icon"> <i class="fa fa-youtube"></i></a></li>
+    </ul>
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
-       
+        </div>
     </header>
 
    
@@ -64,25 +66,25 @@ function myFunction() {
 
 <div class="mySlides fade">
  
-  <img src="photos/tumblr_static_tumblr_static_1f3mw20j9yxw04sw80c8gwocs_640.jpg" alt="Bigboost" style="width:100%">
+  <img src="photos/tumblr_static_tumblr_static_1f3mw20j9yxw04sw80c8gwocs_640.jpg" alt="Bigboost">
   <div class="text">Boosted</div>
     <div class="firsttop-content">  
                 <h1   class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;color: #222;">BiG BooST</h1>
                 <p style="color: black">Best website for car entuthiast</p>
 
-                <a href="#">Learn more</a>
+                <a href="Aboutus.html">Learn more</a>
                 <a href="login.html">log in</a>
             </div>
 </div>
                        <div class="mySlides fade">
  
-  <img src="photos/3rdphoto.gif" alt="Bigboost" style="width:100%">
+  <img src="photos/3rdphoto.gif" alt="Bigboost" >
   <div class="text">Eat</div>
     <div class="firsttop-content">
-                <h1 class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;">BiG BooST</h1>
+                <h1 class="hero-title">BiG BooST</h1>
                 <p> latest events location and more sign up now</p>
 
-                <a href="#">Learn More</a>
+                <a href="events.html">Learn More</a>
                 <a href="login.html">log in</a>
             </div>
 </div>
@@ -90,11 +92,11 @@ function myFunction() {
 
 <div class="mySlides fade">
  
-  <img src="photos/maxresdefault.jpg" alt="Bigboost" style="width:100%">
+  <img src="photos/maxresdefault.jpg" alt="Bigboost" >
   <div class="text">SLEEP</div>
     <div class="firsttop-content">
-                <h1 class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;">BiG BooST</h1>
-                <p>  latest events location and more sign up now</p>
+                <h1 class="hero-title" >BiG BooST</h1>
+                <p>New review and news every secound</p>
 
                 <a href="#">Learn More</a>
                 <a href="login.html">log in</a>
@@ -102,24 +104,24 @@ function myFunction() {
 </div>
 <div class="mySlides fade">
  
-  <img src="photos/gify2.gif" alt="Bigboost" style="width:100%">
+  <img src="photos/gify2.gif" alt="Bigboost">
   <div class="text">BOOST</div>
     <div class="firsttop-content">
-                <h1 class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;">BiG B00ST</h1>
+                <h1 class="hero-title" >BiG B00ST</h1>
                 <p> Latest car parts and more </p>
 
-                <a href="#">Learn More</a>
+                <a href="shop.html">Learn More</a>
                 <a href="login.html">log in</a>
             </div>
 </div>
 <div class="mySlides fade">
-  <img src="photos/giphy.gif" alt="Bigboost" style="width:100%">
-  <div class="text">RPEAT</div>
+  <img src="photos/giphy.gif" alt="Bigboost">
+  <div class="text">REPEAT</div>
    <div class="firsttop-content">
-                <h1 class="hero-title" style="font-family: Brush Script MT, Brush Script Std, cursive;">BiG B00ST</h1>
+                <h1 class="hero-title" >BiG B00ST</h1>
                 <p>car news every sec join now </p>
 
-                <a href="#">Learn More</a>
+                <a href="News.html">Learn More</a>
                 <a href="login.html">log in</a>
             </div>
 </div>
@@ -129,7 +131,7 @@ function myFunction() {
 </div>
 <br>
 
-<div style="text-align:center">
+<div >
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span>
@@ -138,7 +140,7 @@ function myFunction() {
 </div>
 
 <script>
-var slideIndex = 0;
+var slideIndex = 1;
 showSlides();
 
 function showSlides() {
@@ -170,19 +172,19 @@ function showSlides() {
 						<h1>Tomcat Steering Wheel</h1>
 						<img src="photos/momo.png" alt="momowheel" />
 						<p>The MOMO Model 07 steering wheel is designed for use in saloon and rally cars with the deep dish offering the driver maximum control and with yellow leather marker  </p>
-						<a href="" class="rm">Buy now</a>
+						<a href="shop.html" class="rm">Buy now</a>
 					</article>
 					<article>
 						<h1>Tire WAX</h1>
 						<img src="photos/keychain.jpg" alt="tirewax" />
 						<p>Want to black your tyres but don't want excessive shine? Soft99's black Tire Wax restores the black finish of tyres and exterior plastics, without making them glossy. </p>
-						<a href="" class="rm">Buy now</a>
+						<a href="shop.html" class="rm">Buy now</a>
 					</article>
 					<article class="lastarticle">
 						<h1>Front Wheels T-Shirt</h1>
 						<img src="photos/tshirt.jpg" alt="tshirt" />
-						<p>100% cotton<br>150 gsm Euro fit<br>Pre-shrunk<br>Machine wash<br>Not tumble dryer safe<br>gives you 5 HP<br>50% off for premium users</p>
-						<a href="" class="rm">Buy now</a>
+						<p>100% cotton<br>150 gsm Euro fit<br>Pre-shrunk<br>Machine wash<br>gives you 5 HP<br>50% off for premium users</p>
+						<a href="shop.html" class="rm">Buy now</a>
 					</article>
 				</div>
 				<div id="sline">
@@ -200,7 +202,7 @@ function showSlides() {
 						<h1>The Audi RS5 Sportback  </h1>
                     
 						<img src="photos/b2.jpg" alt="audi" />
-						<p>The Audi RS5 is a seriously impressive piece of kit. It's stylish, it's luxurious, and it's very, very fast. So does that extra 'R' on the boot</p>
+						<p>The Audi RS5 is a seriously impressive piece of kit. It's stylish, it's luxurious, and it's very, very fast. So does that extra 'R' on the boot...</p>
                             <a href="" class="RM">Read More</a>
                          
                             
@@ -219,15 +221,15 @@ function showSlides() {
 						<h1>The New Mercedes-AMG C63 </h1>
 						<img src="photos/b3.jpg" alt="Merrcedes-Amg" />
 						<p>With up to 503bhp on tap, a 180mph top speed and a deep, deep well of optional extras, the C63 could be all the car you ever need...</p>
-						<a href="singlepost.html" class="RM">Read More</a>
+						<a href="News.html" class="RM">Read More</a>
                      
 					</article>
                     	<article class="b4">
                            
 						<h1>Ultra High-Tech Brakes </h1>
 						<img src="photos/b4.png" alt="Formula 1" />
-						<p> 2018 Formula1 regulations call for even more efficient brakes with better cooling and lighter calipers</p>
-						<a href="singlepost.html" class="RM">Read More</a>
+						<p> 2018 Formula1 regulations call for even more efficient brakes with better cooling and lighter calipers and safer....</p>
+						<a href="News.html" class="RM">Read More</a>
                      
 					</article>
                     	<article class="b5">
@@ -235,14 +237,14 @@ function showSlides() {
 						<h1>Toyota's New Efficient Engine  </h1>
 						<img src="photos/b5.jpg" alt="Toyota" />
 						<p>Toyota is applying its new strategy for increasing thermal efficiency to a series of “Dynamic Force Engines.” ....</p>
-						<a href="singlepost.html" class="RM">Read More</a>
+						<a href="News.html" class="RM">Read More</a>
                      
 					</article>
                      	<article class="b6">
                            
 						<h1>The Tesla Model-S P100D</h1>
 						<img src="photos/b6.jpg" alt="Tesla" />
-						<p>We take the newly released Tesla Model-s for a test drive what it's like to drive with Tesla's Autopilot on the freeway</p>
+						<p>We take the newly released Tesla Model-s for a test drive what it's like to drive with Tesla's Autopilot on the freeway..</p>
 						<a href="singlepost.html" class="RM">Read More</a>
                      
 					</article>
@@ -333,16 +335,25 @@ function showSlides() {
     <footer>
         <div class="footercontent">
             <a href="#top"><img src="photos/ezgif.com-add-text.gif" alt="Footer Logo"></a>
-        
+            <span class="footernav">
+              <ul>
+             <li><a href="shop.html" >Shop</a></li>
+             <li><a href="#sline" > | Reviews</a></li>
+             <li><a href="News.html" >| News </a></li>
+                  <li><a href="login.html">| Sign in</a></li>
+             <li><a href="Aboutus.html" > | About us</a></li>
+             <li><a href="contactus.html" > | Contact us</a></li>
+             </ul>
+            </span>
+        <div class="copyright">
         <span>Copyright &copy; 2018 Big Boost </span>
-        <br>
+  
             <br>
         <span><a href="mailto:gmail">bigboost@org.com</a> </span>
-             <br>
             <br>
            <a href="contactus.html">contact us</a>
         </div>
-      
+      </div>
     </footer>
 
 </body>

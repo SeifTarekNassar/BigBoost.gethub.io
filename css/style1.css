@@ -128,14 +128,14 @@ h2
 }
 #send{
     position: absolute;
-    bottom: 45px;
+    top:80%;
     left: 50px;
     color: #fff;
     font-weight: bolder;
 }
 #submit{
     position: absolute;
-    top: 92%;
+    top: 80%;
     left: 550px;
     text-decoration: none;
     color: red;
@@ -149,17 +149,13 @@ h2
 }
 footer   {
     position: relative;
-    top: 3px;
+    top: 10px;
   background: #222;
   color: #777;
   text-align: center;
     font-size: 15px;
     padding-bottom: 50px;
 }
-.footercontent{
-    margin-left:100px;
-}
-
 footer a{
     letter-spacing: 2px;
     text-decoration: none;
@@ -168,7 +164,6 @@ footer a{
 footer:hover a{
     color: red;
 }
-
 
 
 

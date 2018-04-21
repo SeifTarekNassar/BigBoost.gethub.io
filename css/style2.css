@@ -1,141 +1,29 @@
 
 html,
-body   { 
-    height: 80%;
-  margin: 0;
-  padding: 0;
-  line-height: 1.0;
-  font-size: 20px;
-width: 100%;
-    background:  	 #fff; 
-  font-family: Arial, Helvetica, sans-serif;
+body{}
+.introduction img{
+    width:100%;
+    height: 500px;
 }
-* {box-sizing: border-box}   
-}
-header   {
-  background: #fff;
-  color: #fff;
-  padding: 30px 30px;
-    
-}
-
-
-/* logo */
-
-#logo img    {
-    position:absolute;
-    right: ;
-    top: -45px;   
-  width: 350px;
-    height: 150px;;
-  border-radius: 0px;
-  margin-right: 5px;
-  vertical-align: right ;
-
-}
-footer   {
+.introduction{
     position: relative;
-  background: #222;
-  color: #777;
+    bottom: 180px;
+    width: 100%;
   text-align: center;
-    font-size: 15px;
+ 
+}
 
-}
-.footercontent{
-    margin-left:100px;
-      padding-bottom: 15px;
-}
-footer img   {
-  display: block;
-  border-radius:0px;
-  width: 80px;
-  margin-right: auto;
-    margin-left: auto;
-    
-}
-footer a{
-    letter-spacing: 2px;
-    text-decoration: none;
-    color: #777; 
-      
-}
-footer:hover a{
-    color: red;
-}
-#navbar {
-  overflow: hidden;
-background:#fff;
+
+.shadow{
+    padding: 250px 791px;
+    position: absolute;
+    top: 45px;
+    background: rgb(0,0,0,.5);
    
 }
-#navbar ul{
-list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-}
-#navbar a {
-  float: right;
-  display: inline-block;
-  color: #222;
-  padding: 10px 20px;
-  text-decoration: none;
-    
-  font-size: 25px;
-}
-
-#navbar a:hover {
-  background-color: red ;
-    color: #fff;
-  opacity: 0.7;
-}
-
-#navbar a:active {
-  background-color: red ;
-    color: #fff;
- 
-}
-
-/*  search box  */
-  #searchbar  {
-  position:absolute;
-    right:600px;
-    top: 2px;
-    float: left;
-    padding: 10px 10px;
-    border:none;
-    margin-right:2px;
-    font-size: 20px;
-    border-color: none;
-     width: calc(30% - 100px);
-}
-.introduction       {
-    width: 100%;
-  min-height: 1200px;
-  text-align: center;
- 
-}
-.firsttop-content   {
-  color: #FFF;
-    position: relative;
-    bottom: 600px;
-  
-}
-.firsttop-content h1   {
-  font-size: 120px;
-  margin: 0;
-}
-.firsttop-content p    {
-  font-size: 50px;
-}
-.shadow{
-    position: absolute;
-    background: rgb(0,0,0,.5);
-    padding: 450px;
-    padding-right: 75%;
-}
 .description{ 
-    position: relative;
-bottom:325px;
+    position:relative;
+    bottom: 150px;
     padding-left: 90px; 
     padding-right: 90px;
     font-weight:500;
@@ -143,8 +31,6 @@ bottom:325px;
      line-height: 2;
 }
 .numbers{
-    position: relative;
-    bottom: 90px;
     padding-top: 1px;
     text-align:center;
     color: #222;
@@ -163,20 +49,18 @@ bottom:325px;
     color: red;
    
 }
-section #socialmedia {
-    position: relative;
-    bottom: 50px;
+#socialmedia {
   text-align: center;
 }
 
-section #socialmedia li {
+#socialmedia li {
   width: 190px;
   height: 140px;
   display: inline-block;
   margin: 50px;
   list-style: none;
 }
-section #socialmedia li div {
+#socialmedia li div {
   width: 100%;
   color:#fff;
   font-size: 100px;
@@ -185,14 +69,15 @@ section #socialmedia li div {
   background-color: rgb(0,0,0,.3);
   transition:0.5s ;
 }
-section #socialmedia li a {
+#socialmedia li a {
   color: #fff;
 }
-section #socialmedia li div:hover {
+#socialmedia li div:hover {
+    background: red;
   transform: rotate(360deg);
   border-radius: 10em;
 }
-section #socialmedia li span {
+#socialmedia li span {
   height: 50px;
   display: block;
   padding: 15px;
@@ -202,64 +87,375 @@ section #socialmedia li span {
     font-weight: bold;
   text-align: center;
 }
-.site-section   {
-    position: relative;
-    bottom: 200px;
-     padding-top: 10px;
-    padding-left: 100px;
+
+/* SHoooooop */
+.shop1stitem{
+    position:relative;
+    bottom: 80px;
+    right:90px;
 }
-.site-section-secondary   {
- background: #222;
+.shop1stitem img{
+    width: 800px;
+    height: 400px;
+}
+.itemshadow{
+    background: rgb(0,0,0,0.4);
+    padding: 200px 400px;
+    position: absolute;
+    left: 175px;
+}
+.shop2stitem{
+    position:relative;
+    bottom: 485px;
+    margin-left: 920px;
+}
+.shop2stitem img{
+    width: 500px;
+    height: 400px;
+}
+.itemshadow2{
+    background: rgb(0,0,0,0.4);
+    padding: 200px 250px;
+    position: absolute;
+    left: 0px;
+}
+.shop1stitem a{
+    position:absolute;
+    left:182px;
+    text-decoration: none;
+    color: #fff;
+    font-family: LeagueGothic, Impact, sans-serif;
+    font-weight:bold;
+    font-size: 54px;
+    padding: 10px 400px 250px 5px;
+}
+.shop2stitem a{
+    position:absolute;
+    right: 190px;
+    text-decoration: none;
+    color: #fff;
+    font-family: LeagueGothic, Impact, sans-serif;
+    font-weight:bold;
+    font-size: 54px;
+    padding: 100px;
+}
+.shop3stitem{
+    position:relative;
+    bottom: 480px;
+    margin-left: 80px;
+}
+.shop3stitem img{
+    width: 1350px;
+    height: 300px;
+}
+.itemshadow3{
+    background: rgb(0,0,0,0.4);
+    padding: 150px 675px;
+    position: absolute;
+    left: 0px;
+}
+.shop3stitem a{
+    position:absolute;
+    right: 500px;
+    text-decoration: none;
+    color: #fff;
+    font-family: LeagueGothic, Impact, sans-serif;
+    font-weight:bold;
+    font-size: 54px;
+    padding: 10px 500PX 220px 10px;
+}
+#shopsearch{
+    position:relative;
+    bottom: 450px;
+    text-align: center;
+}
+#shopsearch input{
+    background:transparent;
+    border: 5px solid #222;
+    padding: 2px 500px 2px 10px;
+    font-size: 30px;
+}
+#shopsearch button{
+    background:transparent;
+    padding: 10px;
+position: relative;
+    bottom: 5px;
+    border: 5px solid red;
+}
+
+.merch{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    bottom: 400px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.merch img {
+    width: 100%;
+   height: 200px;
+}
+
+.desc {
+    padding: 40px;
+    text-align: center;
+}
+.merch span{
+    position: relative;
+    left: 75px;
+    padding: 18px 15px 9px 10px;
+    display:none;
+}
+.merch:hover span{
+    display:block;
+    position: relative;
+    left: 1px;
+    padding:10px;
+    text-align: center;
+    background: red;
+    color: #fff;
+}
+
+.merch2{
+    background: url(../photos/carbon%20fiber2.png);
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    padding: 20px;
+    bottom: 250px;
+    margin: 20px;
+    width: 700px;
+}
+
+.merch2 img {
+    width: 100%;
+   height: 300px;
+}
+.shadowlast a{
+    position: absolute;
+    top: 20px;
+    padding: 10px 259px 231px 130px;
+    text-decoration: none;
+    color:#fff;
+     font-family: LeagueGothic, Impact, sans-serif;
+    font-size:50px;
+    background:rgb(0,0,0,0.4); 
     
 }
-.site-section-inside   {
-  width: 80%;    
-  max-width: 1080px;
-  margin:auto ;
+/* event */
+.headevent{
+    position:relative;
+    bottom: 180px;
+}
+.headevent img{
+    width: 100%;
+    height: 300px;
+}
+.headshadow{
+    background: rgb(0,0,0,0.4);
+    padding: 150px 790px;
+    position: absolute;
+    top:50px;
+}
+.headevent a{
+    position:absolute;
+    bottom: 220px;
+    right: 620px;
+    text-decoration: none;
+    color: #fff;
+    font-family: LeagueGothic, Impact, sans-serif;
+    font-weight:bold;
+    font-size: 54px;
+    padding:1px;
+    color:#ccc;
+}
+.event{
+    display:block;
+    position: relative;
+    left: 75%;
+    bottom: 100px;
+    margin: 20px;
+    border: 1px solid red;
+    width: 250px;
 }
 
+.event img {
+    width: 100%;
+   height: 150px;
+}
 
-.box1   {
+.descb {
+    padding: 10px;
+    background: rgb(0,0,0,0.4);
+    font-family: fantasy;
+    color: #fff;
+}
+.event span{
+    display:none;
+}
+.event:hover span{
+    display:block;
+    position:absolute;
+    bottom: 1px;
+    padding:100px;
+    background: red;
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.headtitle p{ position: absolute;
+bottom: 170px;
+    left: 50px;
+    font-size: 40px;
+ font-family: Brush, Brush Script Std, cursive;
+}
+
+    .calender {
+      background: #fff;
+      border-collapse: collapse;
+      color: #222;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .calender td {
+      border: 1px solid #ccc;
+      color: #222;
+      text-align: center;
+    }
+
+    tr:first-child td {
+      color: #222;
+      font-weight:bold;
+    }
+
+     .calender td:hover {
+      background: red;
+         color: #fff;
+    }
+ .calenderevents {
+      background: rgba(0, 0, 0, .1);
+      border-radius: 5px;
+      padding: 15px;
+      width: 220px;
+     position: relative;
+     left: 77%;
+     bottom: 130px;
+    }
+.titleevents p{
+    position: absolute;
+    left:80%;
+    bottom: 270px;
+    font-size: 40px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.rapper{position:relative; height: 4200px;}
+.warrper{
+    width:900px;
+    position:absolute;
+    bottom:1px;
+    left:200px;
+}
+.mainevent{
+    position: relative;
+    margin: 20px;
    
-border-radius: 10em;
-  display: inline-block;
-  width: 30%;
-    height: auto;
-    background-color: #fff;
-    margin: 10px;
-}
-.testimonial-content   {
-  
-  padding: 15%;
-  border-radius: 5px;
-
-
-}
-.beforepagefooter           {
-    padding: 10%;
-
-}
-.beforepagefooter img {
-  float: left;
-  width: 80px;
-  border-radius: 50%;
-  margin-right: 20px;
-  vertical-align: middle;
-}
-.beforepagefooter h5   {
-  font-size: 18px;
-  margin: 0;
-  padding-top:20px;
-}
-.beforepagefooter span {
-  font-size: 14px;
+    width:800px;
 }
 
+.mainevent img {
+   height: 500px;
+    width:800px;
+}
 
-
-
-
-
-
-
-
+.eventinfo {
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+.eventTT{
+    font-weight: bold;
+    font-size: 40px
+}
+.eventplace button{
+    background: transparent;
+    border:1px solid transparent;
+    font-size: 20px;
+}
+.eventplace button:hover{
+    color: red;
+    cursor: pointer;
+}
+#map{position: absolute;
+    top: 50px;
+    left:25%;
+    width:700px;
+    height:700px;
+    border: 10px solid #222;
+}
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+#overlay button{
+    font-size: 30px;
+    background:red;
+    color: #fff;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 1em;
+    cursor:pointer;
+}
+/* Newsssssssssssss */
+.newstitle p{position:absolute;
+bottom:530px;
+    right: 100px;
+text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+margin: 0; 
+}
+.newstitle span{position:absolute;;
+bottom: 450px;
+left: 180px;
+font-size:28px;     
+}
+.mainnews{
+    position: absolute;
+    left: 10%;
+    bottom: 50px;
+    width: 900px;
+}
+.mainnews img{
+    width: 900px;
+    min-width:300px;}
+.newsinfo{
+     letter-spacing: 2px;
+    line-height: 1.5;
+    color:#595959;
+    
+}
+.Newswrapper{
+    position:relative;
+    padding-top: 300px;
+}
+.newsevent{position: relative;
+top: 150px;
+}
+.event a{
+    color: #222;
+    text-decoration: none;}
+.event a:hover{
+    color: #fff;}

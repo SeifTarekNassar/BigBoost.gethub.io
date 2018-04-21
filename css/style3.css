@@ -6,15 +6,16 @@ body
 	background: url(../photos/maxresdefault.jpg);
 	background-size: cover;
     background-position:top center;
+    background-repeat: no-repeat;
 	font-family: sans-serif;
 }
 
 #logo img    {
     position: absolute;
     top: -50px;
-    right: 900px;
-  width: 400px;
-    height: px;
+    right: 1000px;
+  width: 500px;
+    height: 300px;
   border-radius: 10px;
   margin-right: 5px;
   vertical-align: middle ;
@@ -82,9 +83,6 @@ footer   {
   text-align: center;
     font-size: 15px;
     padding-bottom: 50px;
-}
-.footercontent{
-    margin-left:100px;
 }
 
 footer a{
