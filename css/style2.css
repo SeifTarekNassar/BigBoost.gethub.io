@@ -12,8 +12,14 @@ body{}
   text-align: center;
  
 }
-
-
+.headtitel{position:absolute;
+bottom: 200px;
+    left: 200px;
+  text-shadow: 1px 1px red;;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
 .shadow{
     padding: 250px 791px;
     position: absolute;
@@ -307,7 +313,7 @@ position: relative;
     text-align: center;
     cursor: pointer;
 }
-.headtitle p{ position: absolute;
+.headtitlee p{ position: absolute;
 bottom: 170px;
     left: 50px;
     font-size: 40px;
@@ -425,6 +431,7 @@ bottom:530px;
 text-align: center;
     font-size: 50px;
     font-weight: bold;
+        text-shadow: 2px 2px #FF0000;
 margin: 0; 
 }
 .newstitle span{position:absolute;;
@@ -459,3 +466,205 @@ top: 150px;
     text-decoration: none;}
 .event a:hover{
     color: #fff;}
+
+
+/* markett */
+
+.merch3{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 26%;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.merch3 img {
+    width: 100%;
+   height: 200px;
+}
+
+.merch3 span{
+    position: relative;
+    left: 75px;
+    padding: 18px 15px 9px 10px;
+    display:none;
+}
+.merch3:hover span{
+    display:block;
+    position: relative;
+    left: 1px;
+    padding:10px;
+    text-align: center;
+    background: red;
+    color: #fff;
+    cursor:pointer;
+}
+.filterarea{position:relative;
+top: 10;
+    float:left;
+    right: 30px;
+    bottom: 100px;
+}
+.filter{
+position: absolute;
+    top: -30px;
+left: -50px;
+    padding: 50px;
+    color: #fff;
+    background: #222;
+}
+.filter p{font-size: 40px;
+font-weight: bold;
+    text-decoration: underline;
+}
+.filter a{
+    text-decoration: none;
+    line-height: 4;
+    color: #fff;
+}
+.filter a:hover{
+    color:red;
+}
+.filter li{ list-style: none;}
+
+
+/* reviews */
+
+
+
+.reviewarea {
+    min-width: 700px;
+  max-width: 1900px;
+    width: 1400px;
+  position: relative;
+  margin-left: 100px;;
+}
+.myslides img{width:100%;
+height:400px;;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.caption {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.number123{
+  color: #222;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 70px;
+}
+.reviewwrapper{
+    position: relative;    
+    width: 1000px;
+}
+.mainreview{position: relative;
+left: 300px;
+}
+.mainreview img{width:1000px;
+    height: 300px;
+}
+.reviewinfo{
+     letter-spacing: 2px;
+    line-height: 2;
+    color:#595959;
+    
+}
+iframe {width: 1000px;
+height: 400px;
+}
+.reviewTT p{ 
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+text-shadow: 2px 2px #FF0000;
+    font-size: 50px;}
+/* blogggggggggggggg */
+
+.blogBB{
+    background: #F5F5F5;
+    position: relative;
+    left: 250px;
+    width: 716px;
+    border: 8px solid #ccc;
+}
+.blogbox{
+    
+    position: relative;
+}
+.blogbox p{position: absolute;
+font-size: 10px;
+    color: #ccc;
+    bottom: 520px;
+    left: 100px;
+}
+.blogTT img{width: 100px;
+position: relative;
+top:20px;
+}
+.blogT2 img{width: 100px;
+position: relative;
+top:20px;
+}
+.blogTT{position: relative;
+right: 150px;
+}
+.bloghead{margin-left: 10px;
+}
+.headphoto img{ width: 700px;
+height: 400px;
+}
+#comment{position: relative;
+left:80%;
+bottom: 10px;
+    padding: 15px;
+    background:transparent;
+    border: 1px solid #ccc;
+}
+#point{position: relative;
+bottom: 10px;
+    right: 50px;
+    padding: 15px;
+    background:transparent;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.BlogWarraper {position: absolute;
+top: 350px;
+    right:300px;
+
+}

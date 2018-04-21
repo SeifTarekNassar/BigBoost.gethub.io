@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
         <link rel="icon" href="photos/unnamed.jpg">
-		<title> Login/signup </title>
-		<link rel="stylesheet" href="css/style1.css">
+		<title> Login | signup </title>
+		<link rel="stylesheet" href="css/style1.css" type="text/css">
 	</head>
 	<body>
          
@@ -18,7 +18,15 @@
 				<input type="text" name="Em" placeholder="type email here">
 				<p>Password</p>
 				<input type="password" name="pas" placeholder="***********">
-				<input type="submit" name="signin" value="Sign In">
+                <div class="Loginbut">
+				<a href="community.html" onclick="alertt()"><p>Log In</p></a>
+                    <script>
+                    function alertt(){
+                        alert("WELCOME TO BIG BOOST");
+                    }
+                    
+                    </script>
+                </div>
 				<a href="index.html">Forget Password</a>
 			</form>
 		</div>
