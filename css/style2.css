@@ -425,6 +425,7 @@ bottom: 170px;
     cursor:pointer;
 }
 /* Newsssssssssssss */
+
 .newstitle p{position:absolute;
 bottom:530px;
     right: 100px;
@@ -667,4 +668,36 @@ bottom: 10px;
 top: 350px;
     right:300px;
 
+}
+@media screen and (max-width: 1366px){
+  .newstitle p{position:absolute;
+bottom:350px;
+    right: 100px;
+}  
+.mainnews{
+    position: absolute;
+    left: 2%;
+}    
+ .newstitle span{position:absolute;;
+bottom: 270px;
+left: 25px;
+font-size:20px;     
+}  
+    .headtitlee p{ position: absolute;
+bottom: 50px;
+}
+.titleevents p{
+    position: absolute;
+    left:83%;
+    bottom: 100px;
+}
+    .warrper{
+    width:900px;
+    position:absolute;
+    left:100px;
+}
+.headshadow{
+    background: rgb(0,0,0,0.4);
+    padding: 147px 674px;
+}
 }
